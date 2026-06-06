@@ -1,0 +1,53 @@
+html {
+    background: lavenderblush;
+}
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 40rem;
+    padding: 0 2rem;
+    text-rendering: optimizeLegibility;
+}
+img {
+    max-width: 100%;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2, h3 {
+    color: navy;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard", "Chalkboard SE", sans-serif;
+}
+h1 {
+    letter-spacing: .1rem;
+    text-align: center;
+}
+a:visited {
+    color: darkmagenta;
+}
+a.anchor {
+    text-decoration: none;
+}
+.summary {
+    font-style: italic;
+}
+.caption {
+    margin-top: 0;
+    font-style: italic;
+}
+hr {
+    display: block;
+    border: none;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+hr.green {
+    background-image: url("crayon-green.png");
+}
+hr.yellow {
+    background-image: url("crayon-yellow.png");
+}
